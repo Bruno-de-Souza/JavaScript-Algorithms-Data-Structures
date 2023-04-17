@@ -13,9 +13,4 @@ const findDuplicatesByHashSet = (nums) => {
     return false; // return false
 }
 
-/*********************/
-
-MyHashSet.prototype.contains = function(nums) {
-    return this.hashSet.includes(nums); // return true if the number is in the hashSet
-    this.hashSet.add(nums); // add the number to the hashSet
-}
+console.log(findDuplicatesByHashSet([1,2,3,4,5,5,6,7,8,9,10])); // true
